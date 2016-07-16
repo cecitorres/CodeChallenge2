@@ -1,0 +1,28 @@
+{
+  "name": "CodeChallenge2",
+  "version": "0.0.0",
+  "description": "DON'T PUSH TO THE MASTER",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cecitorres/CodeChallenge2.git"
+  },
+  "author": "CeciTorres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cecitorres/CodeChallenge2/issues"
+  },
+  "dependencies": {
+    "jasmine": "~2.4.1",
+    "karma": "~1.1.1"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.1"
+  }
+}

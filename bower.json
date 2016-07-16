@@ -1,0 +1,17 @@
+{
+  "name": "CodeChallenge2",
+  "description": "DON'T PUSH TO THE MASTER",
+  "main": "index.js",
+  "authors": [
+    "CeciTorres"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cecitorres/CodeChallenge2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
