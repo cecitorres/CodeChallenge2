@@ -1,10 +1,10 @@
 {
-  "name": "CodeChallenge2",
-  "description": "DON'T PUSH TO THE MASTER",
-  "main": "index.js",
+  "name": "Pokedex",
+  "version": "0.0.0",
   "authors": [
-    "CeciTorres"
+    "Ceci Torres <cecitorres7@gmail.com>"
   ],
+  "description": "Angular Bootcamp Project",
   "license": "MIT",
   "homepage": "https://github.com/cecitorres/CodeChallenge2",
   "ignore": [
@@ -13,5 +13,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "less": "~2.7.1"
+  }
 }

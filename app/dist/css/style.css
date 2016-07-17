@@ -1,0 +1,55 @@
+/*Primary colors*/
+/*Types of pokemon*/
+body {
+  font-family: Helvetica;
+  color: #949494;
+}
+.navbar-description {
+  background-color: #E91E63;
+  border-color: #E91E63;
+}
+.navbar-description h3 {
+  margin-top: 10px;
+  color: #fff;
+}
+.label-grass {
+  background-color: #97D077;
+  border-color: #97D077;
+}
+.label-poison {
+  background-color: #A341A3;
+  border-color: #A341A3;
+}
+.label-bug {
+  background-color: #67AB9F;
+  border-color: #67AB9F;
+}
+.panel-heading {
+  background-color: #949494;
+  border-color: #949494;
+  padding: 5px 15px;
+  color: #fff;
+  border: 0px;
+  font-size: 18px;
+}
+.description .pokemon-name {
+  color: #E91E63;
+}
+.description img .pokemon-image {
+  min-width: 200px;
+  min-height: 200px;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+.evolution b {
+  font-weight: normal;
+  color: #000;
+}
+.evolution table img {
+  width: 70px;
+  height: 70px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}

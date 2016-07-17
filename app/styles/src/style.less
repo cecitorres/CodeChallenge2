@@ -1,0 +1,72 @@
+@import "variables.less";
+
+body {
+	font-family: Helvetica;
+	color: @tertiary-color;
+}
+
+.navbar-description {
+	background-color: @secondary-color;
+	border-color: @secondary-color;
+	
+	h3 {
+		margin-top: 10px;
+		color: #fff;	
+	}
+}
+
+.label(@type) {
+	@color: "pokemon-@{type}";
+	background-color: @@color;
+	border-color: @@color;
+}
+
+.label-grass {
+	.label(~"grass");
+}
+.label-poison {
+	.label(~"poison");
+}
+.label-bug {
+	.label(~"bug");
+}
+
+.panel-heading{
+	background-color: @tertiary-color;
+	border-color: @tertiary-color;
+	padding: 5px 15px;
+	color: #fff;
+	border: 0px;
+	font-size: 18px;
+}
+
+.description {
+	.pokemon-name {
+		color: @secondary-color;
+	}
+	img .pokemon-image {
+		min-width: 200px;
+		min-height: 200px;
+		margin-top: 2em;
+		margin-left: 1em;
+	}	
+}
+
+.evolution {
+	b {
+		font-weight: normal;
+		color: #000;
+	}
+	table {
+		img {
+			width: 70px;
+			height: 70px;
+		}
+		
+	}
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
